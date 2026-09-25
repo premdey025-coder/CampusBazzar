@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CampusBazzar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusBazzar - Dibrugarh University</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>🎓 CampusBazzar</h1>
-    <p>Dibrugarh University Student Marketplace</p>
+
+    <!-- Header -->
+    <header>
+        <h1>🎓 CampusBazzar</h1>
+        <p>Dibrugarh University Student Marketplace</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Search -->
+        <input
+            type="text"
+            class="search-box"
+            placeholder="🔍 Search bicycles, books, bedding, tables..."
+        >
+
+        <!-- Categories -->
+        <div class="categories">
+            <button class="category">All</button>
+            <button class="category">🚲 Bicycles</button>
+            <button class="category">📚 Books & Notes</button>
+            <button class="category">🛏️ Bedding</button>
+            <button class="category">🪑 Furniture</button>
+            <button class="category">📱 Electronics</button>
+            <button class="category">📦 Others</button>
+        </div>
+
+        <!-- Sell Button -->
+        <button class="sell-btn">
+            ＋ Sell an Item
+        </button>
+
+        <!-- Products -->
+        <section class="products">
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    🚲
+                </div>
+
+                <div class="product-info">
+                    <h3>Used Bicycle</h3>
+
+                    <p class="price">₹2,500</p>
+
+                    <p class="seller">
+                        Seller: Campus Student
+                    </p>
+
+                    <button class="chat-btn">
+                        💬 Chat / Bargain
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    📚
+                </div>
+
+                <div class="product-info">
+                    <h3>BBA Books</h3>
+
+                    <p class="price">₹500</p>
+
+                    <p class="seller">
+                        Seller: Campus Student
+                    </p>
+
+                    <button class="chat-btn">
+                        💬 Chat / Bargain
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CampusBazzar</p>
+        <p>Buy • Sell • Exchange within Campus</p>
+    </footer>
+
 </body>
 </html>
